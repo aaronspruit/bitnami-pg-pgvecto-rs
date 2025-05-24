@@ -1,3 +1,7 @@
+> [!Note]
+> As of [immich 1.133.0](https://github.com/immich-app/immich/releases/tag/v1.133.0), pgvecto.rs is being deprecated in favor of [VectorChord](https://docs.vectorchord.ai/).  Therefore, this repo is no longer required and is archived.  For bitnami images with VectorChord, please visit https://github.com/aaronspruit/bitnami-pg-vectorchord.  
+
+
 # Bitnami Postgres images w/ pgvecto.rs
 
 I'm using the [Bitnami postgres helm](https://github.com/bitnami/charts/blob/main/bitnami/postgresql/README.md) chart as my backing store for immich (not using the immich helm chart).  Immich requires [pgvecto.rs](https://pgvecto.rs/) installed, which isn't part of the bitnami image.  This image and the subseqent configs (listed below) are how I use this.
